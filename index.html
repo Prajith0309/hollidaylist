@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holidays List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header p-5 bg-warning text-center mt-3">
+         <div class="fs-1">HOLIDAYS LIST BY COUNTRIES</div>
+        </div>
+        <div class="mt-4">
+            <p class="fs-2">You can choose any one of the countries from the radio buton below and click on<span class="bg-warning-subtle"> view list </span> to see the list of holidys.</p>
+            <p class="fs-3">(Please note that the list will contain only previous year's data)</p>
+        </div>
+        <form id="form" class="row">
+            <div class="form-check col-2 m-2">
+                <input class="form-check-input" type="radio" value="IN"name="flexRadioDefault">
+                <label class="form-check-label">
+                  INDIA
+                </label>
+            </div>
+            <div class="form-check col-2 m-2">
+                <input class="form-check-input" type="radio" value="US" name="flexRadioDefault">
+                <label class="form-check-label">
+                  USA
+                </label>
+            </div>
+            <div class="form-check col-2 m-2">
+                <input class="form-check-input" type="radio" value="CN"name="flexRadioDefault">
+                <label class="form-check-label">
+                  CHINA
+                </label>
+            </div>
+            <div class="form-check col-2 m-2">
+                <input class="form-check-input" type="radio" value="AUS" name="flexRadioDefault">
+                <label class="form-check-label">
+                  AUSTRALIA
+                </label>
+            </div>
+            <div class="form-check col-2 m-2">
+                <input class="form-check-input" type="radio" value="FRA"name="flexRadioDefault">
+                <label class="form-check-label">
+                  FRANCE
+                </label>
+            </div>
+            <div class="form-check col-2 m-2">
+                <input class="form-check-input" type="radio" value="UK" name="flexRadioDefault">
+                <label class="form-check-label">
+                  UNITED KINGDOM
+                </label>
+            </div>
+            <div class="form-check col-2 m-2">
+                <input class="form-check-input" type="radio" value="PAK"name="flexRadioDefault">
+                <label class="form-check-label">
+                  PAKISTAN
+                </label>
+            </div>
+            <div class="form-check col-2 m-2">
+                <input class="form-check-input" type="radio" value="BRA" name="flexRadioDefault">
+                <label class="form-check-label">
+                  BRAZIL
+                </label>
+            </div>
+            <div class="form-check col-2 m-2">
+                <input class="form-check-input" type="radio" value="KR"name="flexRadioDefault">
+                <label class="form-check-label">
+                  KOREA
+                </label>
+            </div>
+            <div class="form-check col-2 m-2">
+                <input class="form-check-input" type="radio" value="RUS" name="flexRadioDefault">
+                <label class="form-check-label">
+                  RUSSIA
+                </label>
+            </div>
+            <div class="form-check col-2 m-2">
+                <input class="form-check-input" type="radio" value="SL" name="flexRadioDefault">
+                <label class="form-check-label">
+                  SRI LANKA
+                </label>
+            </div>
+            <div>
+                <button class="btn btn-warning m-4" id="submit" type="submit">view list</button>
+            </div>
+        </form>
+        <div class="mt-5"></div>
+        <div class="no-data text-center fs-1">Data will be shown here!</div>
+        <div class="data-list text-center">
+
+        </div>
+         <div class="mt-5 p-4"></div>
+    </div>
+</body>
+</html>
+
