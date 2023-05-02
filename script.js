@@ -70,7 +70,6 @@
             });
             
             const cls = document.querySelector('.data-list')
-            console.log()
             cls.append(table)
             document.querySelector('.no-data').style.display= 'none';
             radios.forEach((radio)=>{
@@ -143,7 +142,6 @@
                 table.appendChild(tbody)
             });
             const cls = document.querySelector('.data-list')
-            console.log()
             cls.append(table)
             document.querySelector('.no-data').style.display= 'none';
             radios.forEach((radio)=>{
